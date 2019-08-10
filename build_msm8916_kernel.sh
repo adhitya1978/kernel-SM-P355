@@ -154,7 +154,7 @@ PRODUCT_OUT=$BUILD_ROOT_DIR/android/out/target/product/$PRODUCT_NAME
 
 
 SECURE_SCRIPT=$BUILD_ROOT_DIR/buildscript/tools/signclient.jar
-BUILD_CROSS_COMPILE=/home/dhanny/kerneldev/android/toolchains/android_prebuilt_toolchains/arm-eabi-4.8/bin/arm-eabi-
+BUILD_CROSS_COMPILE=../arm-eabi-4.8/bin/arm-eabi-
 BUILD_JOB_NUMBER=`grep processor /proc/cpuinfo|wc -l`
 
 # Default Python version is 2.7
